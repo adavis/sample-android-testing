@@ -5,8 +5,10 @@ Resources for testing Android applications
 Version 1.1 of Android Studio added support unit testing.  You can learn more about it [here](http://tools.android.com/tech-docs/unit-testing-support).  I recommend using JUnit and Mockito for most unit testing efforts.  Here are some resources that you can use to learn about unit testing Android applications.
 
 ### To Read ###
+* [Testing Fundamentals](http://developer.android.com/tools/testing/testing_android.html)
 * [Android Unit and Integration Testing](https://github.com/codepath/android_guides/wiki/Android-Unit-and-Integration-testing)
 * [Unit Testing with JUnit](http://www.vogella.com/tutorials/JUnit/article.html)
+* [Mocks Aren't Stubs](http://martinfowler.com/articles/mocksArentStubs.html)
 
 ### To Watch ###
 * [Mockito - Stubbing Behavior in Java Unit Tests](https://youtu.be/DyuWgBHfxNQ?list=PLI1sbl8Xq9-EmfLpXvRdSEZMZ_FTVkMVd)
