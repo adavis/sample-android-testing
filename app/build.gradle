@@ -17,6 +17,22 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            println "********* $variant.description **********";
+            def apkName = "app-$defaultConfig.versionName-$output.baseName";
+
+            if (!output.zipAlign) {
+                apkName += "-unaligned";
+            }
+
+            println "$project.buildDir/apk/" + apkName + '\n';
+            output.outputFile = file("$project.buildDir/apk/" + apkName + ".apk")
+        }
+
+        variant.assemble.dependsOn ':app:test' // + variant.name.capitalize()
+    }
 }
 
 dependencies {
