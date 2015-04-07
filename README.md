@@ -20,5 +20,7 @@ There are a few options available for integration testing however, Robotium is c
 ### To Read ###
 * [Testing for Android with Robotium](http://blog.shinetech.com/2012/09/05/testing-for-android-with-robotium/)
 * [Creating a Complete Robotium Unit Test](https://boltingupandroid.wordpress.com/2012/06/17/creating-a-complete-robotium-unit-test/)
+* [Ultimate Robotium Link List](https://testobject.com/blog/2014/05/the-ultimate-robotium-linklist.html)
 
 ### To Watch ###
+* [Android From the Trenches](http://www.donnfelker.com/android-from-the-trenches/)
