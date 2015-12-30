@@ -9,6 +9,7 @@ Version 1.1 of Android Studio added support unit testing.  You can learn more ab
 * [Android Unit and Integration Testing](https://github.com/codepath/android_guides/wiki/Android-Unit-and-Integration-testing)
 * [Unit Testing with JUnit](http://www.vogella.com/tutorials/JUnit/article.html)
 * [Mocks Aren't Stubs](http://martinfowler.com/articles/mocksArentStubs.html)
+* [Learning Android Application Testing](http://amzn.to/1mOhYoT)
 
 ### To Watch ###
 * [Mockito - Stubbing Behavior in Java Unit Tests](https://youtu.be/DyuWgBHfxNQ?list=PLI1sbl8Xq9-EmfLpXvRdSEZMZ_FTVkMVd)
